@@ -1,29 +1,22 @@
-* {
-  font-family: 'Times New Roman', Times, serif;
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
 }
 
-main {
-  padding: 1rem 3rem 5rem 12rem;
-  background-color: lightskyblue;
-  width: fit-content;
-  position: relative;
-  left: 10rem;
-  top: 12rem;
+#bg {
+  width: 98vw;
+  height: 70vh;
+  position: absolute;
+  right: 0;
 }
 
-h1 {
-  margin-bottom: 0;
-  text-decoration: underline;
-}
-
-h3 {
-  margin-top: 0.4rem;
-}
-
-@media (max-width: 1024px) {
-  main {
-    left: auto;
-    top: 15rem;
-    margin: 0 auto;
-  }
+#scary {
+  width: 20%;
+  z-index: 1;
+  filter: saturate(100);
+  position: absolute;
+  top: 0;
+  left: 0;
 }

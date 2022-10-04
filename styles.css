@@ -1,0 +1,21 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  padding: 1rem 3rem 5rem 12rem;
+  background-color: lightskyblue;
+  width: fit-content;
+  position: relative;
+  left: 10rem;
+  top: 12rem;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 0.4rem;
+}
